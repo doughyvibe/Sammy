@@ -6,6 +6,20 @@ Welcome to the **Sammy Swift Refactoring Agent**. This workflow is designed to a
 
 ## 🚀 Getting Started
 
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-org/sammy-refactor-agent.git
+   cd sammy-refactor-agent
+   ```
+2. **Open the project** in Xcode (or SwiftPM) and ensure the `.agent` directory is visible.
+3. **Configure your IDE for slash commands** (optional but recommended):
+   - **Xcode**: Preferences → Behaviors → Add a custom script to run terminal commands.
+   - **VS Code**: Install a ChatGPT/AI extension and map `/master-refactor`, `/context-intake`, etc., to the integrated terminal.
+4. **Run the master command** to start the workflow:
+   ```markdown
+   ### **`/master-refactor`**
+   ```
+
 To begin a refactoring session, open the Swift file you wish to modify and run the master command:
 
 ### **`/master-refactor`**
